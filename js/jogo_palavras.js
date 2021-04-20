@@ -107,7 +107,7 @@ function charAttempted(){
 
     if (error.indexOf(char) >= 0 || palavra.indexOf(char) >= 0) {
 
-        alert("A letra" + char.toUpperCase() + "já foi usada.");
+        alert("A letra " + char.toUpperCase() + " já foi usada.");
         inChar.focus();
 
         return;
