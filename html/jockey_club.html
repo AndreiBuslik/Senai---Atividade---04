@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jockey Club</title>
+
+    <link rel="stylesheet" href="../css/jockey.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-4">
+
+                <img src="../img/horses.jpg" alt="Jockey Club" class="horsesImg">
+
+                <div class="col-sm-6">
+
+                    <table id="tableHorses">
+
+                        <tr>
+                            <th>Número</th>
+                            <th>Nome</th>
+                        </tr>
+    
+                        <tr>
+                            <td>1</td>
+                            <td>Marujo</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2</td>
+                            <td>Tordilho</td>
+                        </tr>
+    
+                        <tr>
+                            <td>3</td>
+                            <td>Belga</td>
+                        </tr>
+    
+                        <tr>
+                            <td>4</td>
+                            <td>Twister</td>
+                        </tr>
+    
+                        <tr>
+                            <td>5</td>
+                            <td>Jade</td>
+                        </tr>
+    
+                        <tr>
+                            <td>6</td>
+                            <td>Lucky</td>
+                        </tr>
+
+                    </table>
+                    
+                </div>
+
+            </div>
+
+          <div class="col-sm-8">
+
+                <h1>Jockey Club - Controle de Apostas</h1>
+    
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+                        <p>
+                            <label for="horseNumber">Nº Cavalo:</label>
+                            <input type="text" class="form-control" id="horseNumber" autofocus>
+
+                        </p>
+
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        
+                        <h5 id="horseName"></h5>
+                    
+                    </div>
+
+                </div>
+    
+            <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            <label for="bet">Aposta R$:</label>
+                            <input type="text" class="form-control" id="bet">
+                        </p>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        
+                        <input type="button" class="btn btn-primary" value="Apostar" id="betButton">
+                        <input type="button" class="btn btn-success" value="Ganhador" id="winnerButton">
+                        <input type="button" class="btn btn-danger" value="Novo Páreo" id="newButton">
+                    
+                    </div>
+            </div>
+    
+            <pre id="betsPlaced"></pre>
+        
+        </div>
+
+    </div>
+
+    <script src="../js/jockey.js"></script>
+
+</body>
+
+</html>

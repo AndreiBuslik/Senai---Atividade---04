@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de palavras para o jogo "Descubra a palavra"</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/lista_palavras.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <h1>Jogo "Descubra a Palavra"</h1>
+    
+                <a href="./descubra_a_palavra.html" class="btn btn-primary">Cadastrar Palavras</a>
+                <a href="./lista_de_palavras.html" class="btn btn-success">Listar Palavras</a>
+                <a href="./jogo_palavras.html" class="btn btn-danger">Iniciar Jogo</a>
+    
+                <div class="row">
+
+                    <div class="col-sm-9">
+                    
+                        <h2>Lista de Palavras Cadastradas</h2>
+
+                    </div>
+
+                    <div class="col-sm-3">
+
+                        <input type="checkbox" id="showWords"> Mostrar Palavras
+
+                    </div>
+
+                </div>
+    
+                <table class="table table-striped" id="tableWords">
+                    
+                    <tr>
+
+                        <th>Palavra</th>
+                        <th>Dica</th>
+                        <th>
+                            <label>
+                            <input type="checkbox" id="checkAll"> Todos </label>
+                        </th>
+
+                    </tr>
+    
+                </table>
+    
+                <p class="deleteButtonArea">
+
+                    <input type="button" class="btn btn-danger hidden" value="Excluir Selecionados" id="deleteButton">
+
+                </p>
+    
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../js/lista_palavras.js"></script>
+
+</body>
+
+</html>

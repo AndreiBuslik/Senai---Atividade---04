@@ -1,0 +1,29 @@
+h1{ 
+    
+    border-bottom-style: inset; 
+
+}
+
+h2{ 
+    
+    margin-top: 12px; 
+
+}
+
+#showWord{
+
+    margin-top: 30px;
+
+}
+
+.deleteButtonArea{
+
+    text-align: right;
+
+}
+
+#deleteButton{
+
+    display: none; 
+
+}

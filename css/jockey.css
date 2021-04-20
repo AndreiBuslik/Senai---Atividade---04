@@ -1,0 +1,109 @@
+h1{ 
+    
+    border-bottom-style: inset; 
+
+}
+
+h2{ 
+    
+    margin-top: 12px; 
+
+}
+
+h5{ 
+    
+    font-style: italic; 
+    padding-top: 40px;
+
+}
+
+pre{ 
+    
+    font-style: italic; 
+
+}
+
+figure{ 
+    
+    display: inline-block; 
+    font-size: 0.7em; margin: 5px; 
+
+}
+
+img.horsesImg { 
+    
+    max-width: 100%; 
+    max-height: 60%;
+
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+  
+}
+
+table{
+    
+    width: 100%;
+    background-color: #f1f1c1;
+    margin-left: 90px;
+
+}
+
+table th {
+    
+    color: black;
+    background-color: rgb(224, 218, 218);
+    text-align: center;
+  
+}
+
+td{
+
+    text-align: center;
+    color: black;
+
+}
+
+#tableHorses tr:nth-child(even) {
+    
+    background-color: #eee;
+
+}
+
+#tableHorses tr:nth-child(odd) {
+    
+    background-color: #fff;
+
+}
+
+#horseNumber{
+
+    text-align: right;
+
+}
+
+#bet{
+
+    text-align: right;
+
+}
+
+#betButton{
+
+    margin-top: 30px;
+
+}
+
+#winnerButton{
+
+    margin-top: 30px;
+
+}
+
+#newButton{
+
+    margin-top: 30px;
+
+}

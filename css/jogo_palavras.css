@@ -1,0 +1,63 @@
+h1{ 
+    
+    border-bottom-style: inset; 
+
+}
+
+h2{ 
+    
+    margin-top: 12px; 
+
+}
+
+.gameArea{
+
+    margin-top: 15px;
+
+}
+
+.charAttemptArea{
+    
+    background-color: lightskyblue;
+    margin-top: 15px;
+
+}
+
+.charAttempt{
+
+    text-align: right;
+
+}
+
+.wordChar{
+
+    letter-spacing: 0.5em;
+    color: blue;
+
+}
+
+.gameChances{
+
+    color: red;
+
+}
+
+.errorChar{
+
+    letter-spacing: 0.5em;
+    color: red;
+
+}
+
+.statusImage{
+
+    max-width: 100%;
+
+}
+
+.hintArea{
+
+    padding: 12px;
+    background-color: lightskyblue;
+
+}

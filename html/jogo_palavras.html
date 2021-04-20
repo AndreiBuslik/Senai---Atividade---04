@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo "Descubra a palavra"</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/jogo_palavras.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <h1>Jogo "Descubra a Palavra"</h1>
+    
+                <a href="./descubra_a_palavra.html" class="btn btn-primary">Cadastrar Palavras</a>
+                <a href="./lista_de_palavras.html" class="btn btn-success">Listar Palavras</a>
+                <a href="./jogo_palavras.html" class="btn btn-danger">Iniciar Jogo</a>
+    
+                <div class="row gameArea">
+
+                    <div class="col-sm-4 charAttemptArea">
+                    
+                        <h2 class="charAttempt">
+
+                            <label for="charIn">Informe uma letra:</label>
+
+                        </h2>
+
+                    </div>
+
+                    <div class="col-sm-2 charAttemptArea">
+
+                        <input type="text" class="form-control gameArea" id="inChar" autofocus>
+
+                    </div>
+
+                    <div class="col-sm-6 charAttemptArea">
+
+                        <input type="button" class="btn btn-primary gameArea" value="Jogar" id="playButton">
+
+                    </div>
+
+                </div>
+    
+                <div class="row">
+
+                    <div class="col-sm-8">
+
+                        <h2>Palavra:
+                            <span class="wordChar" id="inGameWord" ></span>
+                        </h2>
+
+                        <h2>Nº Chances:
+                            <span class="gameChances" id="chances" >4</span>
+                        </h2>
+
+                        <h2>Erros:
+                            <span class="errorChar" id="errors" ></span>
+                        </h2>
+
+                        <h2 id="message"></h2>
+
+                        <h3 id="playAgain"></h3>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <h3> Situação do Jogador </h3>
+                        <img src="../img/status4.jpg" class="statusImage" alt="Situação do Jogador" id="statusImage">
+
+                    </div>
+
+                </div>
+    
+                <div class="row">
+
+                    <div class="col-sm-12 hintArea">
+
+                        <input type="button" value="Ver Dica" class="btn btn-primary" id="showHintButton">
+                        <span id="showHint">* Custo: 1 chance</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+      <script src="../js/jogo_palavras.js"></script>
+
+</body>
+
+</html>
