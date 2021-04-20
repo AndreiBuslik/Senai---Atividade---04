@@ -110,8 +110,8 @@ function removeWord(){
 
         if (words != "") {
       
-            localStorage.setItem("word", words.substr(0, words.length));
-            localStorage.setItem("hint", hints.substr(0, hints.length));
+            localStorage.setItem("word", words.substr(0, words.length - 1));
+            localStorage.setItem("hint", hints.substr(0, hints.length - 1));
 
         }
 
